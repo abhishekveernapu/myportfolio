@@ -1,0 +1,57 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #f5f7fa;
+  --bg-secondary: #ffffff;
+  --accent: #0070f3;
+  --accent-light: rgba(0, 112, 243, 0.08);
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a5568;
+  --border: rgba(0, 0, 0, 0.08);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --font-main: 'Segoe UI', sans-serif;
+  --transition: all 0.3s ease;
+  --radius: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb {
+  background: #9ca3af;        /* grey */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;        /* darker grey on hover */
+}
+
+/* Selection */
+::selection {
+  background: rgba(0, 112, 243, 0.15);
+  color: var(--accent);
+}

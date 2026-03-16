@@ -1,0 +1,39 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(245, 247, 250, 0.92);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  padding: 1rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
+
+.links li a {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  transition: var(--transition);
+  font-weight: 500;
+}
+
+.links li a:hover {
+  color: var(--accent);
+}

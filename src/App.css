@@ -1,0 +1,25 @@
+/* Global resets & utility classes beyond index.css */
+
+main {
+  padding-top: 70px; /* offset for fixed navbar */
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 10px;
+}
+
+/* Selection highlight */
+::selection {
+  background: rgba(100, 255, 218, 0.2);
+  color: var(--accent);
+}
