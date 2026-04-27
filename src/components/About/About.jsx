@@ -30,11 +30,7 @@ export default function About() {
     real-world solutions that combine intelligent systems with clean, responsive UIs.
   </p>
 
-  <p className={styles.text}>
-    I am deeply interested in AI agents and emerging AI tools &amp; technologies,
-    and am currently undergoing professional training in AI &amp; ML to sharpen
-    my applied knowledge.
-  </p>
+  
 
   <p className={styles.text}>
     I am actively looking for a dynamic role that encourages continuous learning,
